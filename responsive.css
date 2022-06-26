@@ -1,0 +1,498 @@
+@charset "UTF-8";
+@media screen and (max-width: 1270px) {
+  .bl_nav,
+  .ly_cta,
+  .ly_header .ly_btn_unit {
+    display: none;
+  }
+  .bl_drawerBtn {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 998px) {
+  .bl_flow_deco.bl_flow_deco__main .bl_flow_deco_line {
+    height: 3150px;
+  }
+  /* ファーストビュー */
+  .ly_fv_wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .ly_fv .bl_fv_copy {
+    padding-left: 10%;
+    font-size: 5rem;
+  }
+  .ly_fv .bl_fv_left {
+    width: 100%;
+    margin-top: 100px;
+  }
+  .ly_fv .bl_fv_img__lg {
+    display: none;
+  }
+  .ly_fv .bl_fv_img__sm {
+    display: block;
+  }
+  .bl_point_wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    max-width: unset;
+  }
+  .bl_point_wrapper > .bl_point_body {
+    width: 50%;
+    margin: 0 auto;
+  }
+  .bl_point_body:last-child {
+    margin-right: 0;
+  }
+  .bl_point_two_wrapper {
+    width: 100%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .bl_point_circle {
+    margin-top: -30px;
+  }
+}
+
+/*--------------------------------
+タブレット
+--------------------------------*/
+@media screen and (max-width: 768px) {
+  /* カラー */
+  /* イントロセクション */
+  #intro .el_section_ttl {
+    margin-bottom: 0;
+  }
+  #intro .bl_intro_imgWrapper {
+    width: 100%;
+  }
+  #intro .bl_intro_body {
+    width: 90%;
+  }
+  #intro .bl_intro_body .el_btn {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .bl_point_two_wrapper {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  /* フューチャーセクション */
+  .bl_feature_label {
+    padding: 2px 25px;
+    font-size: 1rem;
+    display: inherit;
+    text-align: center;
+  }
+  .bl_feature_body {
+    width: 100%;
+  }
+  .bl_feature_header {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+  .bl_feature_imgWrapper {
+    width: 100%;
+  }
+  .bl_feature_txt {
+    text-align: center;
+  }
+  .bl_feature_unit:last-child {
+    margin-bottom: 0;
+  }
+  .el_plan {
+    background-position: 14%;
+  }
+  .hp_round button {
+    width: 200px;
+    height: 50px;
+  }
+  /* CTAセクション */
+  .bl_cta_unit {
+    width: 100%;
+  }
+  .bl_cta_imgWrapper {
+    width: 100%;
+    text-align: center;
+  }
+  .el_btn.el_btn__accentRadius {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    letter-spacing: 0em;
+  }
+  /* サービスページ */
+  .bubble {
+    margin-right: 0;
+    margin-bottom: 30px;
+    padding: 20px 15px;
+  }
+  #service .bl_intro_imgWrapper {
+    width: 100%;
+    margin-top: -20%;
+  }
+  .bubble.bubble__left:after,
+  .bubble.bubble__left:before,
+  .bubble.bubble__center:after,
+  .bubble.bubble__center:before {
+    content: none;
+  }
+  .bubble.bubble__right:after {
+    right: 0;
+    left: unset;
+    bottom: -60px;
+  }
+  .bubble.bubble__right:before {
+    right: 20px;
+    left: unset;
+    bottom: -100px;
+  }
+  .bubble.bubble__center {
+    margin-left: auto;
+    width: 80%;
+  }
+  .bl_cardUnit__col3 > .bl_card {
+    width: 47.5%;
+    margin-right: 2.5%;
+  }
+  .bl_cardUnit__col3 > .bl_card:nth-child(2n) {
+    margin-right: 0;
+  }
+  /* ご利用の流れページ */
+  .ly_flow_list .bl_flow_item:nth-child(odd) {
+    padding-right: 0;
+  }
+  .ly_flow_list .bl_flow_item:not(:last-child) {
+    margin-bottom: 30px;
+  }
+  .ly_flow_list .bl_flow_item {
+    width: 100%;
+  }
+  .ly_flow_list .bl_flow_item,
+  .ly_flow_list .bl_flow_item:nth-child(even) {
+    padding-left: 40px;
+  }
+  .ly_flow_list .bl_flow_item.flow_item_last {
+    padding-left: 0;
+  }
+  .ly_flow_list .bl_flow_item:nth-child(even) .bl_flow_item_ttl {
+    text-align: left;
+    -webkit-box-orient: unset;
+    -webkit-box-direction: unset;
+        -ms-flex-direction: unset;
+            flex-direction: unset;
+  }
+  .ly_flow_list .bl_flow_deco {
+    width: 28px;
+    height: 28px;
+  }
+  .ly_flow_list > .bl_flow_deco {
+    left: 18px;
+  }
+  .ly_flow_list .bl_flow_item:nth-child(odd) .bl_flow_deco,
+  .ly_flow_list .bl_flow_item:nth-child(even) .bl_flow_deco {
+    left: -37px;
+    right: initial;
+  }
+  .bl_flow_item:nth-child(odd) .bl_flow_deco_line {
+    left: 80%;
+    right: initial;
+  }
+  .bl_flow_item .bl_flow_deco_line {
+    width: 16px;
+  }
+  .bl_flow_item:nth-child(even) .bl_flow_deco_line {
+    left: 88%;
+  }
+  .ly_flow_list .bl_flow_item.flow_item_last figure {
+    width: 95vw;
+  }
+  .flow_deco-main .flow_deco_line {
+    top: -32px;
+  }
+  .bl_flow_deco.bl_flow_deco__main .bl_flow_deco_line {
+    height: 2600px;
+  }
+  .ly_flow_list .bl_flow_item:nth-child(even) .bl_flow_item_ttl_num {
+    margin-left: 0;
+    margin-right: 10px;
+  }
+  /* 料金プランページ */
+  .bl_system_body {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .bl_priceUnit {
+    width: 900px;
+  }
+  .bl_plan_service_table,
+  .bl_plan_option_table {
+    width: 1000px;
+  }
+  #meo .bl_plan_service_table {
+    width: 100%;
+  }
+  #meo .bl_plan_service_table tbody th {
+    border-right: none;
+  }
+  .bl_plan_service_table thead .blank {
+    -webkit-box-flex: 0.4;
+        -ms-flex: 0.4;
+            flex: 0.4;
+    background-color: #eaf5fd;
+  }
+  .bl_plan_option_table thead .blank {
+    -webkit-box-flex: 0.4;
+        -ms-flex: 0.4;
+            flex: 0.4;
+    background-color: #ffffff;
+  }
+  .bl_plan_service_table tbody th,
+  .bl_plan_option_table tbody th {
+    padding-left: 5px;
+    -webkit-box-flex: 0.4;
+        -ms-flex: 0.4;
+            flex: 0.4;
+    border-right: 1px solid #eaf5fd;
+    font-size: 1.2rem;
+  }
+  /* フッター */
+  footer .bl_footer_nav_item {
+    border-right: none;
+    margin-bottom: 10px;
+  }
+  footer.ly_footer {
+    padding-top: 50px;
+  }
+  .ly_footer > .ly_inner {
+    padding-bottom: 50px;
+  }
+  .ly_footer_main ul:nth-of-type(2) {
+    border-right: none;
+  }
+  .ly_footer_main {
+    margin-bottom: 50px;
+  }
+  .ly_footer_side {
+    text-align: center !important;
+  }
+  /* ヘルパークラス */
+  .hp_br-tb {
+    display: block;
+  }
+  .hp_br-pc {
+    display: none;
+  }
+  .hp_column_tb {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
+  .hp_column_tb-reverse {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: reverse !important;
+        -ms-flex-direction: column-reverse !important;
+            flex-direction: column-reverse !important;
+  }
+}
+
+@media (min-width: 768px) {
+  a[href^="tel:"] {
+    pointer-events: none;
+  }
+}
+
+/*-------------------------------
+タブレットここまで
+--------------------------------*/
+/*--------------------------------
+スマートフォン ここから
+--------------------------------*/
+@media screen and (max-width: 519px) {
+  /* フォントサイズ */
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 2.4rem;
+  }
+  h3 {
+    font-size: 2rem;
+  }
+  h4 {
+    font-size: 1.6rem;
+  }
+  body {
+    font-size: 1.4rem;
+    line-height: 1.6em;
+  }
+  .ly_fv .bl_fv_copy {
+    font-size: 3rem;
+  }
+  /* ヘッダー */
+  .el_logo img {
+    width: 125px;
+  }
+  .ly_header_inner {
+    height: 60px;
+  }
+  .ly_header .bl_info_wrapper {
+    display: none;
+  }
+  .ly_heading h2 {
+    font-size: 2.4rem;
+    line-height: 1.5em;
+  }
+  .bl_drawer_item {
+    padding: 15px 0px 15px 0px;
+  }
+  .bl_drawer_wrap {
+    top: 60px;
+  }
+  .bl_drawer_list {
+    top: 60px;
+  }
+  .bl_drawer_list .ly_btn_unit {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .bl_drawer_list .ly_btn_unit .el_btn {
+    margin-right: 0px;
+    margin-bottom: 20px;
+  }
+  /* ファーストビュー */
+  .bl_point_ttl {
+    font-size: 1.5rem;
+  }
+  /* クエスチョンセクション */
+  #question .el_section_ttl::after {
+    width: 200px;
+    height: 200px;
+  }
+  .bl_faq_item_question {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .bl_faq_item_question div i {
+    font-size: 3rem;
+  }
+  #question .bl_faq_container .bl_faq_list:first-child::after {
+    width: 150px;
+    height: 150px;
+    top: -90.5px;
+    right: -71px;
+  }
+  .bl_faq_container {
+    position: relative;
+  }
+  .bl_faq_item_answer {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .el_section_ttl {
+    line-height: 1.5;
+  }
+  .ly_heading {
+    margin-top: 60px;
+  }
+  /* サービスページ */
+  .bl_cardUnit.bl_cardUnit__col3 {
+    margin-bottom: -20px;
+  }
+  .bl_cardUnit > .bl_card {
+    width: 100%;
+    margin-bottom: 20px;
+    margin-right: 0;
+  }
+  #reason .bl_card_imgWrapper {
+    padding-top: 240px;
+  }
+  /* 料金プランページ */
+  /* ご利用の流れページ */
+  .bl_flow_deco.bl_flow_deco__main .bl_flow_deco_line {
+    height: 2500px;
+  }
+  /* デモサイト一覧ページ */
+  .bl_media_imgWrapper {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+  .bl_media_body {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+  }
+  /* 利用者様ページ */
+  #user .bl_info_wrapper .el_tel {
+    font-size: 200%;
+  }
+  /* ヘルパークラス */
+  .hp_br-sp {
+    display: block;
+  }
+  .hp_column {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
+  .hp_column-reverse {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: reverse !important;
+        -ms-flex-direction: column-reverse !important;
+            flex-direction: column-reverse !important;
+  }
+  .hp_mtLg {
+    margin-top: 80px;
+  }
+  .hp_mbLg {
+    margin-bottom: 80px;
+  }
+  .hp_mtMd {
+    margin-top: 50px;
+  }
+  .hp_mbMd {
+    margin-bottom: 50px;
+  }
+  .hp_mtSm {
+    margin-top: 20px;
+  }
+  .hp_mbSm {
+    margin-bottom: 20px;
+  }
+  .hp_ptLg {
+    padding-top: 80px;
+  }
+  .hp_pbLg {
+    padding-bottom: 80px;
+  }
+  .hp_ptMd {
+    padding-top: 50px;
+  }
+  .hp_pbMd {
+    padding-bottom: 50px;
+  }
+  .hp_ptSm {
+    padding-top: 20px;
+  }
+  .hp_pbSm {
+    padding-bottom: 20px;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */
